@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+#ServerInfoBox, #JobApplicationFormBox {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    width: 50%;
+    max-width: 600px; /* added max-width */
+}
+
+#JobApplicationForm {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 10px;
+    font-weight: bold; /* added font-weight */
+}
+
+input[type="text"], textarea, select { /* added select */
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%; /* added width */
+}
+
+button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px; /* added font-size */
+}
+
+button[type="submit"]:hover {
+    background-color: #555;
+}
+
+.error {
+    color: red;
+    font-size: 14px; /* added font-size */
+}
+
+/* added styles for select */
+select {
+    appearance: none; /* added appearance */
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 16px; /* added font-size */
+}
+
+select:focus {
+    outline: none; /* added outline */
+    border-color: #aaa;
+}
