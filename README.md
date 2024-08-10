@@ -4,7 +4,6 @@ This is a web application that accepts feedbacks for a fictional company.
 
 ## Features:
 
-- Displays server information
 - Allows users to submit job application
 - Validates input
 - Creates folders for applicants and writes input into files
